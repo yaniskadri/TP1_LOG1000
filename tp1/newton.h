@@ -1,4 +1,4 @@
-
+/* ceci est une modification du fichier */
 
 /*
  * This is the function to call to obtain the Newton approximation.
@@ -10,7 +10,7 @@ float newton(float initial_value, int iterations);
 
 /*
  * This function should not be called directly. This function implements the recursive Newton algorithm to obtain the root value.
- * initial_value : the value for which we want to obtain the root. 
+ * initial_value : the value for which we want to obtain the root.
  * current_value : the current value of the root approximation.
  * iteration : the number of iterations left to perform. It is the criteria to end the recursive function.
  * return : the root value to return after the final iteration.
